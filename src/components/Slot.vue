@@ -1,7 +1,8 @@
 <template>
    <div>
+<slot name='title'></slot>
 <h1>Sample test data {{hello }}</h1>
-<slot></slot>
+<slot name='footer'>{hello } {{hello}}</slot>
    </div>
 </template>
 
